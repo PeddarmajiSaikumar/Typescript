@@ -13,8 +13,9 @@ class MedicalRecord{
 let record=new MedicalRecord("Saikumar","Pneumonia");
 record.displayRecord();
 
-// 2.Inheritance:Inheritance allows a class to inherit properties and methods from another class. 
-// In TypeScript, a class can extend another class using the extends keyword.
+/* 2.Inheritance:Inheritance allows a class to inherit properties and methods from another class. 
+        In TypeScript, a class can extend another class using the extends keyword.
+*/
 class Person{
     name:string;
     age:number;
