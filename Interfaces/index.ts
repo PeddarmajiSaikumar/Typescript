@@ -70,13 +70,13 @@ interface C extends A,B{
 }
 class Example implements C{
   c(): void {
-    console.log("Methid a implemented from Interface A.");
+    console.log("Method a implemented from Interface A.");
   }
   a(): void {
-    console.log("Methid b implemented from Interface B.");
+    console.log("Method b implemented from Interface B.");
   }
   b(): void {
-    console.log("Methid c implemented from Interface C.");
+    console.log("Method c implemented from Interface C.");
   }
 }
 let example=new Example();

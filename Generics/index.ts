@@ -25,7 +25,7 @@ class Box<T> {
     }
 }
 const stringBox = new Box<string>("Hello");
-console.log(stringBox.getContents()); 
+console.log(stringBox.getContents()); 5
 const numberBox = new Box<number>(123);
 console.log(numberBox.getContents()); 
 
